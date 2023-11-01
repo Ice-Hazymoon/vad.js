@@ -33,8 +33,8 @@ function startUserMedia(stream) {
         voice_start: () => {
             console.log('voice_start');
         },
-        voiceTimeout: 5000, // When no sound is detected for a long time
-        voiceTimeoutCallback: () => {
+        voice_timeout: 5000, // When no sound is detected for a long time
+        voice_timeout_callback: () => {
             console.log('voiceTimeoutCallback');
         },
     });
